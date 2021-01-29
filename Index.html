@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>CSS Snippet Cheat Sheet</title>
+</head>
+<body>
+    <header>CSS Snippet Cheat Sheet</header>
+        <p id="p1">Ever have trouble recalling the exact syntax for your favorite CSS code?  Give it a permanent home and add it to this page!  Select any snippet below and it'll automatically select all of the code for your to copy</p>
+    
+        <container id="grid">
+            <div class="box">
+                <header class="box-head">Flexbox Row</header>
+                <p class="box-p">Use these properties to create a Flexbox row layout</p>
+                <div class="second-box">
+                    <pre>
+    .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+                    </pre>
+                </div>
+            </div>
+            <div class="box">
+                <header class="box-head">Flexbox Column</header>
+                <p class="box-p">Use this to create a Flexbox column layout</p>
+                <div class="second-box">
+                    <pre>
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
+                    </pre>
+                </div>
+            </div>
+            <div class="box">
+                <header class="box-head">CCS Grid Layout</header>
+                <p class="box-p">Build a 12-column layout using CSS grid</p>
+                <div class="second-box">
+                    <pre>
+    .grid {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat (12, 1fr);
+    }
+                    </pre>
+                </div>
+            </div>
+            <div class="box-second">
+                <header class="box-head">Linear Gradients</header>
+                <p class="box-p">This will create a background linear gradient from top to bottom. </p>
+                <div class="second-box">
+                    <pre>
+    .linear-gradient-background {
+        backgroun-image: linear-gradient(
+            rgba(232, 102, 236, 0.3) 0%,
+            rgba(232, 102, 236, 0.6) 100%
+        );
+    }
+                    </pre>
+                </div>
+            </div>
+            <div class="box-second">
+                <header class="box-head">Box Transition Glow</header>
+                <p class="box-p">Use transitions and box shadows to glow on hover.</p>
+                <div class="second-box">
+                    <pre>
+    .row {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    } 
+    
+    .code-card:hover.
+    .code-card:hover .card header {
+        box-shadow:inset 0px 0px 8px
+        rgba(232, 102, 236, 1), 0 0 15px
+        rgba(232, 102, 236, 1),;
+    }
+
+    
+                    </pre>
+                </div>
+            </div>
+            <div class="box-second">
+                <header class="box-head">Overlay Card with TItle</header>
+                <p class="box-p">Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+                    <div class="second-box">
+                        <pre>
+    .card-header {
+    position: relative;
+    margin-top: -20px
+    }
+                    </pre>
+                </div>
+            </div>
+        </container>
+    <footer> Made with "❤️" and CSS </footer>
+</body>
+</html>
